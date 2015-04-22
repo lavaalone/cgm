@@ -1,0 +1,322 @@
+
+
+
+#define CMD_TEST 					 0
+#define CMD_LOGIN 					 1
+#define CMD_PLACE_POT 					 2
+#define CMD_HIDE_POT 					 3
+#define CMD_UPGRADE_POT 					 4
+#define CMD_PLANT 					 5
+#define CMD_HARVEST 					 6
+#define CMD_OPEN_NEW_FLOOR 					 7
+#define CMD_UPGRADE_STOCK 					 8
+#define CMD_START_MACHINE 					 9
+#define CMD_CREATE_PRODUCT 					 10
+#define CMD_MOVE_POT 					 11
+#define CMD_UPGRADE_MACHINE 					 12
+#define CMD_REPAIR_MACHINE 					 13
+#define CMD_PRODUCT_COMPLETED 					 14
+#define CMD_UPGRADE_PRODUCT_SLOT 					 15
+#define CMD_MOVE_MACHINE_PRODUCT 					 16
+#define CMD_PRODUCT_SKIP_TIME 					 17
+#define CMD_CREATE_ORDER 					 18
+#define CMD_CATCH_BUG 					 19
+#define CMD_READY_MACHINE 					 20
+#define CMD_SKIP_MACHINE_UNLOCK_TIME 					 21
+#define CMD_BUY_ITEM_UPGRADE_STOCK 					 22
+#define CMD_PLANT_INSTANT_GROW_UP 					 23
+#define CMD_DELIVERY_ORDER 					 24
+#define CMD_SKIP_ORDER 					 25
+#define CMD_SKIP_ORDER_WAIT_TIME 					 26
+#define CMD_COMPLETE_ORDER 					 27
+#define CMD_BUY_ITEM_OPEN_FLOOR 					 28
+#define CMD_BUY_IBSHOP_PACKAGE 					 29
+#define CMD_LOAD_FRIEND_GARDEN 					 30
+#define CMD_UNLOCK_PS_SLOT_FRIEND 					 31
+#define CMD_UNLOCK_PS_SLOT_DIAMOND 					 32
+#define CMD_PLACE_ITEM_PSHOP 					 33
+
+
+#define CMD_REPAIR_MACHINE_FRIEND 					 34
+#define CMD_CANCEL_ITEM_PSHOP 					 35
+#define CMD_SKIP_ADS_PSHOP 					 36
+#define CMD_SET_ADS_PSHOP 					 37
+#define CMD_LOAD_FRIEND_PSHOP 					 38
+
+#define CMD_RECONNECT 					 39
+
+#define CMD_LOAD_FRIEND_LIST 					 40
+
+#define CMD_COME_BACK_HOME 					 41
+#define CMD_BUY_ITEM_PRIVATE_SHOP 					 42
+
+#define CMD_RECEIVE_REWARD 					 43
+#define CMD_LOAD_FRIEND_FB 					 44
+#define CMD_COLLECT_MONEY_PSHOP 					 45
+#define CMD_BUY_MATERIAL_UPGRADE_POT 					 46
+
+#define CMD_GET_GAME_CONSTANT 					 47
+
+#define CMD_UPDATE_PRIVATE_SHOP 					 48
+#define CMD_LEAVE_FRIEND_SHOP 					 49
+
+#define CMD_NOTIFY_SHOP_IS_MODIFIED 					 50
+#define CMD_UDP_REQUEST_RELOAD_PSHOP 					 51
+#define CMD_REQUEST_RELOAD_PSHOP 					 52
+
+#define CMD_REFRESH_NEWS_BOARD 					 53
+#define CMD_LOAD_IBSHOP 					 54
+
+#define CMD_COMPLETE_ITEMS_TO_PRODUCT 					 55
+#define CMD_INSTANT_BUY_SEED 					 56
+
+#define CMD_LOAD_GAME_ACCOUNT_VIA_FB 					 57
+
+#define CMD_CONFIRM_LOGIN 					 58
+#define CMD_REQUEST_LOGIN 					 59
+
+#define CMD_ADS_ADD 					 60
+#define CMD_ADS_REMOVE 					 61
+
+#define CMD_LOGIN_DIFFERENT_ACCOUNT 					 62
+#define CMD_INSTANT_BUY_BUG_ZAPPER 					 63
+
+#define CMD_LEVEL_UP 					 64
+
+#define CMD_BUY_PEARL_UPGRADE_POT 					 65
+#define CMD_INSTANT_BUY_LUCKY_LEAF 					 66
+
+#define CMD_LOAD_NPC_PSHOP 					 67
+
+#define CMD_RECEIVE_MACHINE_DURABILITY					 68
+
+#define CMD_LOAD_OWN_PSHOP 					 69
+
+
+#define CMD_ORDER_LETTER_SELECT 					 70
+#define CMD_ORDER_LETTER_RESELECT 					 71
+#define CMD_RECEIVE_DAILY_ORDER_FREE 					 72
+#define CMD_RECEIVE_DAILY_ORDER_PAID 					 73
+
+#define CMD_REFILL_CARD 					 74
+
+#define CMD_UDP_REFRESH_DIAMOND 					 75
+
+#define CMD_TUTORIAL_UPDATE_STEP 					 76
+
+#define CMD_OPEN_GIFT 					 77
+#define CMD_ACCEPT_GIFT 					 78
+#define CMD_DISCARD_GIFT 					 79
+#define CMD_CATCH_BUG_FRIEND 					 80
+#define CMD_INSTANT_BUY_LONG_HANDNET 					 81
+
+#define CMD_PLACE_DECOR 					 82
+#define CMD_HIDE_DECOR 					 83
+
+#define CMD_USE_FERTILIZER 					 84
+#define CMD_NOTIFY_SHARE_FB_FINISH 					 85
+
+#define CMD_FEED_OWL 					 86
+#define CMD_BUY_OWL_LOT 					 87
+#define CMD_DIGEST_COMPLETED 					 88
+#define CMD_DIGEST_COMPLETE_INSTANT 					 89
+
+#define CMD_NPC_BUY_EXPIRED_ITEM 					 90
+
+#define CMD_LOAD_FRIEND_ZING 					 91
+#define CMD_LOAD_ACCOUNT_VIA_ZING 					 92
+
+#define CMD_AUTHENTICATE_GIFT_CODE 					 93
+
+#define CMD_REGISTER_PHONE 					 94
+#define CMD_VERIFY_PHONE 					 95
+
+#define CMD_NOTIFY_LIKE_FB_FINISH 					 96
+
+#define CMD_ACCEPT_NPC_BUY_ITEM 					 97
+#define CMD_CANCEL_NPC_BUY_ITEM 					 98
+
+#define CMD_RECEIVE_DAILY_GIFT 					 99
+#define CMD_DISCARD_DAILY_GIFT 					 100
+
+#define CMD_SIMPLE_LOGIN 					 101
+#define CMD_INTERACT_EMO 					 102
+#define CMD_BUY_ITEM_EMI 					 103
+
+
+#define CMD_CREATE_PRODUCT_OPTIMIZE_DATA_OUT 					 104
+#define CMD_PRODUCT_COMPLETED_OPTIMIZE_DATA_OUT 					 105
+#define CMD_MOVE_MACHINE_PRODUCT_OPTIMIZE_DATA_OUT 					 106
+#define CMD_PRODUCT_SKIP_TIME_OPTIMIZE_DATA_OUT 					 107
+
+#define CMD_FORCE_QUIT 					 108
+#define CMD_REFILL_ATM 					 109
+
+#define CMD_LIKE_GARDEN 					 110
+
+#define CMD_ACCEPT_MERCHANT_REQUEST 					 111
+#define CMD_DISCARD_MERCHANT_REQUEST 					 112
+#define CMD_REQUEST_MERCHANT 					 113
+#define CMD_BUY_ITEMS_FOR_MERCHANT 					 114
+#define CMD_SET_STATE_MERCHANT 					 115
+
+#define CMD_REQUEST_FEED_INFO 					 116
+#define CMD_PROVIDE_GCM_REG_ID 					 117
+
+#define CMD_CDN_LOADER 					 118
+#define CMD_PROVIDE_FB_SHORT_TOKEN 					 119
+#define CMD_PROVIDE_FB_BIRTHDAY 					 120
+#define CMD_REQUEST_FB_SHORT_TOKEN 					 121
+#define CMD_UPDATE_RANKING_INFO 					 122
+#define CMD_GET_ACTIVE_RANKING_INFO 					 123
+#define CMD_GET_PREVIOUS_RANKING_INFO 					 124
+#define CMD_GET_RANKING_ACCUMULATION 					 125
+#define CMD_GET_ACTIVE_RANKING_RESULT 					 126
+#define CMD_GET_BASIC_RANKING_GIFT 					 127
+#define CMD_GET_ALL_RANKING_INFO 					 128
+#define CMD_UPDATE_GARDEN_APPRAISAL 					 129
+
+
+#define CMD_UNLOCK_AIRSHIP 					 130
+#define CMD_SKIP_UNLOCK_TIME_AIRSHIP 					 134
+#define CMD_SKIP_DEPART_TIME_AIRSHIP 					 135
+#define CMD_QUICK_COMPLETE_AIRSHIP 					 136
+#define CMD_DISPOSE_AIRSHIP 					 137
+#define CMD_COMPLETE_CARGO 					 138
+#define CMD_QUICK_COMPLETE_CARGO 					 139
+#define CMD_LOAD_AIRSHIP 					 140
+#define CMD_DELETE_AIRSHIP 					 141
+#define CMD_COMPLETE_AIRSHIP 					 142
+
+
+#define CMD_LOAD_TOM_KID 					 143
+#define CMD_REQUEST_TOM_KID_ITEM 					 144
+#define CMD_ACCEPT_TOM_KID_ITEM 					 145
+#define CMD_DENY_TOM_KID_ITEM 					 146
+#define CMD_HIRE_TOM_KID 					 147
+#define CMD_DELETE_TOM_KID 					 148
+#define CMD_START_TOM 					 149
+
+
+
+
+#define CMD_RESET_ALL_DATA 					 150
+#define CMD_RESET_ACCOUNT 					 151
+#define CMD_KEEP_ALIVE 					 152
+#define CMD_CHANGE_TO_STABLE_USER 					 153
+#define CMD_ADD_DIAMOND 					 154
+
+#define CMD_BUY_ITEM_UPGRADE_STOCK_OPTIMIZE_DATA_OUT 					 155
+#define CMD_UPGRADE_STOCK_OPTIMIZE_DATA_OUT 					 156
+#define CMD_LOAD_FRIEND_LIST_STEP 					 157
+#define CMD_LOAD_SPECIAL_OFFER 					 158
+#define CMD_BUY_SALE_OFF_SPECIAL_OFFER 					 159
+#define CMD_PRELOAD_IMG_SPECIAL_OFFER 					 160
+
+
+#define CMD_LOAD_FRIEND_ZALO 					 161
+#define CMD_LOAD_ACCOUNT_VIA_ZALO 					 162
+
+#define CMD_CANCEL_AIRSHIP 					 163
+
+#define CMD_GET_ADS 					 164
+#define CMD_RECEIVE_ADS 					 165
+
+
+#define CMD_RECEIVE_ACM_GIFT 					 166
+#define CMD_DELETE_ACM 					 167
+
+
+#define CMD_LOAD_FORTUNE 					 168
+#define CMD_LOAD_ACM 					 169
+#define CMD_BUY_FORTUNE 					 170
+#define CMD_USE_FORTUNE 					 171
+
+
+#define CMD_ASK_FOR_HELP_AIRSHIP 					 172
+#define CMD_HELP_FRIEND_AIRSHIP 					 173
+#define CMD_QUICK_HELP_FRIEND_AIRSHIP 					 174
+
+
+#define CMD_UNLINK_ZALO 					 175
+#define CMD_GET_ZALO_TOKEN 					 176
+
+#define CMD_QUICK_REFRESH_NEWSBOARD 					 177
+
+#define CMD_RECEIVED_GIFT_INVITE_FRIEND 					 178
+#define CMD_FILTER_ZING_FRIEND 					 179
+#define CMD_RESET_INVITE_FRIEND 					 180
+#define CMD_NOTIFY_INVITE_FRIEND 					 181
+#define CMD_UPDATE_PHONE_NUMBER 					 182
+
+#define CMD_RECEIVED_GIFT_CROSS_INSTALL 					 183
+#define CMD_HANDLE_REFILL_ZALO 					 184
+#define CMD_RECEIVED_BANNER_CROSS_INSTALL 					 185
+#define CMD_RECEIVED_GIFT_MID_AUTUMN_FESTIVAL 					 186
+#define CMD_VIEW_EVENT_SCORE 					 187
+
+#define CMD_LOAD_USER_INFO 					 188
+#define CMD_LOAD_MAIL_BOX 					 189
+#define CMD_SET_MAIL_READ 					 190
+#define CMD_DELETE_MAIL 					 191
+#define CMD_SEND_MAIL 					 192
+#define CMD_ACCEPT_MAIL_GIFT 					 193
+
+
+#define CMD_VALIDATE_APPLE_IAP 					 194
+
+
+#define CMD_GET_ANDROID_DEVELOPER_PAYLOAD 					 195
+#define CMD_VALIDATE_ANDROID_RECEIPT 					 196
+
+#define CMD_SET_STATE_NEW_TUTORIAL 					 197
+
+#define CMD_PLACE_ITEM_XMAS_TREE 					 198
+
+#define CMD_FORCE_CHANGE_SERVER 					 199
+#define CMD_VALIDATE_WP_RECEIPT 					 206
+
+
+#define CMD_BUY_OFFER_BUG 					 207
+#define CMD_BUY_OFFER_GEM 					 208
+#define CMD_BUY_OFFER_FLOOR 					 209
+#define CMD_BUY_OFFER_MACHINE 					 210
+#define CMD_REQUEST_OFFER_FLOOR 					 211
+#define CMD_REQUEST_OFFER_MACHINE 					 212
+#define CMD_REQUEST_OFFER_GOLD 					 213
+#define CMD_BUY_OFFER_GOLD 					 214
+#define CMD_BUY_OFFER_LUCKY_LEAF 					 215
+#define CMD_BUY_OFFER_LUCKY_LEAF_PURPLE 					 216
+
+
+#define CMD_GIVE_FRIEND_EVENT_GIFT 					 217
+#define CMD_RECEIVE_EVENT_GIFT_FROM_FRIEND 					 218
+#define CMD_OPEN_ITEM_EVENT_GIFT 					 219
+#define CMD_GET_EVENT_GIFT_LIST 					 220
+
+
+#define CMD_REATTEND_DAILY 					 221
+
+
+#define CMD_ADD_CLOSE_FRIEND 					 222
+
+
+#define CMD_OPEN_TREASURE_TRUNK 					 223
+
+
+#define CMD_BROADCAST 					 200
+#define CMD_KICK_USER 					 201
+#define CMD_SET_SERVER_STATUS 					 202
+#define CMD_CRASH_LOG 					 203
+#define CMD_SET_EVENT_NOTIFICATION 					 204
+#define CMD_PUSH_CLOUD_MESSAGE 					 205
+
+
+#define CMD_MAX_VALUE 					 300
+#define CMD_LOG_IN_CHAT 					 1000
+#define CMD_LOG_OUT_CHAT 					 1001
+#define CMD_ENTER_ROOM_CHAT 					 1002
+#define CMD_LEAVE_ROOM_CHAT 					 1003
+#define CMD_ADD_MESSAGE 					 1004
+#define CMD_GET_MESSAGE 					 1005
+
